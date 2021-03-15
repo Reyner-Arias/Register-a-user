@@ -1,0 +1,19 @@
+.buttonStyle {
+  background-color: #289234;
+  color: white;
+  font-family: comic sans;
+  font-size: 30px;
+  border: none;
+  outline: 0;
+  padding: 10px 20px;
+}
+
+.buttonStyle:hover {
+  background-color: rgb(28, 92, 34);
+  color: white;
+}
+.buttonStyle:focus {
+  background-color: rgb(28, 92, 34);
+  color: white;
+}
+

@@ -5,7 +5,7 @@ CREATE TABLE `us`.`user` (
   `firstLastName` VARCHAR(45) NOT NULL COMMENT 'First last name of the user',
   `secondLastName` VARCHAR(45) NOT NULL COMMENT 'Second last name of the user',
   `Username` VARCHAR(45) NOT NULL COMMENT 'Identification name of the user',
-  `phoneNumber` INT(8) NOT NULL COMMENT 'Phone number of the user',
+  `phoneNumber`  MEDIUMINT UNSIGNED NOT NULL COMMENT 'Phone number of the user',
   `Department` VARCHAR(45) NOT NULL COMMENT 'Department of the user',
   `Address` VARCHAR(100) NOT NULL COMMENT 'Address of the user',
   `Password` VARCHAR(45) NOT NULL COMMENT 'Password of the user',

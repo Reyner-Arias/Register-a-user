@@ -1,7 +1,7 @@
 CREATE TABLE `us`.`user` (
   `ID` VARCHAR(45) NOT NULL COMMENT 'Identification number of the user',
   `Name` VARCHAR(45) NOT NULL COMMENT 'Name of the user',
-  `middleName` VARCHAR(45) NOT NULL COMMENT 'Middle name of the user',
+  `middleName` VARCHAR(45) COMMENT 'Middle name of the user',
   `firstLastName` VARCHAR(45) NOT NULL COMMENT 'First last name of the user',
   `secondLastName` VARCHAR(45) NOT NULL COMMENT 'Second last name of the user',
   `Username` VARCHAR(45) NOT NULL COMMENT 'Identification name of the user',

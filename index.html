@@ -13,12 +13,23 @@
   </head>
   <body>
     <div class="container">
-      <label id="usernameLabel" class = "labelStyle">Username:</label>
-      <input id="usernameInput" class = "inputStyle" title="Username Textbox"></input><br>
-      <label id="passwordLabel" class = "labelStyle" >Password: </label>
-      <input id="passwordInput" class = "inputStyle" title="Password Textbox" type="password"></input><br>
-      <a class="btn btn-info buttonStyle" href="" title="Login button">Login</a>
-      <a class="btn btn-info buttonStyle" href="userDataTemplate.html" title="Sign up button">Sign up</a>
+      <div class="row">
+        <label id="usernameLabel" class = "labelStyle">Username:</label>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <input id="usernameInput" class = "inputStyle" title="Username Textbox"></input><br>
+        </div>
+        <label id="passwordLabel" class = "labelStyle" >Password: </label>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <input id="passwordInput" class = "inputStyle" title="Password Textbox" type="password"></input><br>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <a class="btn btn-info buttonStyle" href="" title="Login button">Login</a>
+          <a class="btn btn-info buttonStyle" href="userDataTemplate.html" title="Sign up button">Sign up</a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="script.js"></script>

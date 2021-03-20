@@ -9,10 +9,6 @@ CREATE TABLE `us`.`user` (
   `Department` VARCHAR(45) NOT NULL COMMENT 'Department of the user',
   `Address` VARCHAR(100) NOT NULL COMMENT 'Address of the user',
   `Password` VARCHAR(45) NOT NULL COMMENT 'Password of the user',
-  `date_creation` DATE NOT NULL COMMENT 'Date of creation',
-  `user_creation` VARCHAR(45) NOT NULL COMMENT 'User who created it',
-  `date_last_modification` DATE NULL COMMENT 'Date of the last modification',
-  `user_last_modification` VARCHAR(45) NULL COMMENT 'Last user who modified it',
   PRIMARY KEY (`Username`),
   UNIQUE INDEX `user_id_uk` (`ID` ASC) VISIBLE)
 COMMENT = 'Table that stores data of users';

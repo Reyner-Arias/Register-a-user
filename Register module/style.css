@@ -1,3 +1,12 @@
+
+    .jumbotron{
+    background-color:#D3D3D3;
+    color: black;
+    margin-top: 10px;
+    border-radius: 20px;
+    }
+
+
 .buttonStyle{
   background-color: #289234;
   border-radius: 25px;
